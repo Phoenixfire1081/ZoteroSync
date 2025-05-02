@@ -36,7 +36,7 @@ if [ -d "$directory_name" ]; then
 	# Use rsync to update the folder from server
 
 	echo "Running rsync"
-	rsync -avz --progress "$username@$hostname:$hostpath" "$current_path/$directory_name"
+	rsync -avz --progress "${username}@${hostname}:${hostpath}" "$current_path/$directory_name"
 	echo "Sync complete"
 		
 else
@@ -50,7 +50,7 @@ else
 	# Use rsync to copy the folder from server
 
 	echo "Running rsync"
-	rsync -avz --progress "$username@$hostname:$hostpath" "$current_path/$directory_name"
+	rsync -avz --progress "${username}@${hostname}:${hostpath}" "$current_path/$directory_name"
 	echo "Sync complete"
 
 fi
