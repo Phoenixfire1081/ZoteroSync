@@ -17,6 +17,17 @@ The bash script needs to be kept at the Zotero data directory on your local mach
 
 In case of data corruption on the server-side, the backup from Zotero-old on your local machine can be used.
 
+## Usage
+
+Pull from server:
+```
+bash synczotero.sh pull 
+```
+Push changes to server:
+```
+bash synczotero.sh push
+```
+
 ## Testing
 
 Tested on a Mac (Sequoia 15.3.1) pulling data from Linux (Ubuntu 24.04.1)
