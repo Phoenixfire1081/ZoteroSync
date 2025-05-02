@@ -1,1 +1,1 @@
-# ZoteroSync
+# Sync Zotero data easily
